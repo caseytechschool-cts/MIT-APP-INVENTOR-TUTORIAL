@@ -2,6 +2,8 @@
 
 Welcome to the app development tutorial. This tutorial is intented for begineers who just started exploring app development world with low and no-coding approach. Throughout this tutorial, I will use **MIT App Inventor** website to design and develop an app.
 
+*If you are here only to build and test the app, jump [builing your first app](#building-your-first-app) section.*
+
 ### **Things you need**
 1. Computer (laptop or desktop) with internet connection
 2. A Gmail address to login into the MIT App Inventor website
@@ -30,6 +32,8 @@ You need to setup once only. Depending on availablity of hardware and Internet c
 ## Building an app
 You need to follow a two-stages principle to build an app. First, you need to design the layout of the app. How it looks like and what user interfaces you need to build it. Second, you need to think about how to make it working, so writing down all logic statements.
 
+### **User interface design**
+
 The first stage is known as **User Interface (UI) design**. In this stage, you not only design the interface but also consider the **User Experience (UX)**. Your design should balance on user experience. Indeed, you are making it for others to use.
 
 To understand the difference between **UI** and **UX** checkout the follow image.
@@ -37,3 +41,44 @@ To understand the difference between **UI** and **UX** checkout the follow image
 
 The top image shows a cute mug, which looks nice and creative. However, the user experience is really bad. While designing the user interface, make a smooth experience for your user, not yourself.
 
+### **App logic**
+You have designed an awesome user interface keeping in mind the user experiences. But one problem remains: it does nothing! Now, you need to think about how to make it functional by writing some code. Usually, students are familiar with Scratch based block coding and MIT APP Inventor offers it.
+
+## Building your first app
+
+### **User interface design**
+
+We will start by designing the user interface. Here is a hand-drawn diagram how the interface looks like.
+![user interface](media/layout.jpg)
+The layout has an image and a button component. Let's build it in the MIT APP Inventor platform. Follow the following steps.
+
+1. Visit [MIT APP Inventor](https://appinventor.mit.edu/)link using the Chrome browser and click on `Create Apps!` button.
+2. Use a Gmail address to login into the system.
+3. For the first time use, it may show you some intro, you can skip it by ticking off a box.
+4. To create an app, click on `Start new project` button and give it a name. You can give any name you would like. However, a better practice would be given it a name that alligns with what the app does.
+5. It will take a few moments the prepare the project and once ready you will see the following image.
+    > Let's try to understand what is going on here. There are four sections. On your left, you have user interface and layout, separated into different sections.
+
+    > The middle area is where you can drag and drop different things from the left panel. You can change the screen size by switching on different screen sizes.
+
+    > The `Components` panel shows the tree view of all the things you can drag and drop from the left panel. You can rename a component or delete it from here. Just under the `Components`, there is a `Media` panel. You can upload different assests (e.g., images, audio etc.) through it.
+
+    > Finally, the rightmost panel is the `Properties` panel. Depending on what is selected on the screen or at the `Componenta` tree, it will allow you to modify different properties of that component. You can change colour, shape, size and many other behaviours from this panel.
+6. Drag and drop an `Image` and a `Button` components on your screen. The secreen should look like the following:
+7.  By default, every component snap at the top-left corner. You can change this behaviour by visiting the `Properties` panel. Let's move everything at the center and middle of the screen.
+    > Click on the `Screen1` from the `Components` tree.
+    
+    > Select `Center` for `AlignHorizontal` and `AlignVertical`. Everything should move at the center of the screen.
+
+    > To use the device default theme, scroll down of the `Properties` component and look for `Theme`. Change the theme to `Device Default`
+8.  The image component is a place holder, you need to upload an actual image. Go to the `Media` panel and click on `Upload File` and uploads an image file (png or jpge file). You will see no difference as you need to link the newly uploaded file with the image component. 
+    > Click on the image icon on the screen or click on `Image1` from the `Components` tree. From the `Properties` panel, click on the `Picture` and select your image file and press `OK`.
+
+    > Depending on the image size, it may take the most of the screen and you may kind of lost the `Button` component. To fix this, you can limit the height of the image. To do it, click on `Height` from the `Properties` panel and give a percentage value (60% works for me) and click `OK`. Now, you should be able to see both components.
+9.  Click on the `Text for Button1` on the screen. You will change a few properties of the button too.
+    > From the `Properties` panel, click on `Width` and choose `Fill parent` and click `OK`. The button will take the entire screen for its width.
+
+    > From the `Text` property replace the current text with "Hide" without quatation and press enter.
+10. **Congratulation!** You have officially finished the design part. Now you need to think about implementing the app logic.
+
+### **App logic**
