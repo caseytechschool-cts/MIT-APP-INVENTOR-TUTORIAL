@@ -82,3 +82,39 @@ The layout has an image and a button component. Let's build it in the MIT APP In
 10. **Congratulation!** You have officially finished the design part. Now you need to think about implementing the app logic.
 
 ### **App logic**
+When you click on the `Hide` button, the app hides the image and changes the  button text to `Show`. Once you click on the `Show` button, the app shows the image and changes the button text to `Hide`. 
+
+The following image shows you the logical breakdown.
+![logic](media/logic.jpg)
+
+To implement the above logic, click on the `Blocks` tab on top of `Properties` panel and follow these steps:
+
+1. Click on `Button1` from `Blocks` panel and drag and drop `when Button1.Click` block.
+2. Click on `Control` block and drag and drop `if then else` block inside the `when Button1.Click` block.
+3. Click on the `Logic` block and drag and drop the equal block on the if statement.
+4. Click on the screen and type Button1.Text and press enter. Move the new block inside the first section of the equal operation.
+    > Another option: Click on the `Button1` from the `Blocks` panel and find the block `Button1.Text` and drag and drop it.
+5. Click on the screen and type "text". Choose it from the drop down menu and move the block on the second section of the equal operation. Type Hide in empty block. At this stage the code should look like the following:
+   ![block-code-1](media/blocks1.png)
+6. Click on the screen and type **set image1** and from the drop down menu choose `Visible`. Type False on the screen and connect it with the set image1 block. Move the entire block inside the if statement.
+7. Similarly, set the Button1 text to Show. The following image shows code at this stage.
+   ![block-code-2](media/blocks2.png)
+8. Right-click on the first set block and choose `Duplicate`. Move the duplicated block inside the else statement. Change false to true.
+9.  Duplicate the other block and move it into the else statement and change the text to Hide. The final code is as follows:
+    ![final code](media/blocks3.png)
+10. **Congrats, you are done!!!** Let's test it.
+
+---
+## Testing the app
+There are a few different ways you can test the app. Here, I will show the easiest way of testing the app. To test the app, **make sure your laptop and tablet/mobile devices are connected on the same Wi-Fi network.**
+
+Follow the following steps to test the app.
+
+1. Click on the `Connect` and choose `AI Companion`. It will generate a QR code. 
+2. On your phone/tablet, open the `MIT AI2 Companion` app and click `scan QR code`.
+3. Point your camera to the QR code and hold it until it finishes.
+4. Your app should load on your mobile device and it shoud work.
+
+---
+## Extension activity
+You may notice that, the show/hide button jumps up and down on the screen. Though, it is not a big problem, it does not feel good. Remember what I mentioned earlier about user experiences? Let's fix it. We do 
