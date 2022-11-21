@@ -117,4 +117,21 @@ Follow the following steps to test the app.
 
 ---
 ## Extension activity
-You may notice that, the show/hide button jumps up and down on the screen. Though, it is not a big problem, it does not feel good. Remember what I mentioned earlier about user experiences? Let's fix it!
+You may notice that the show/hide button jumps up and down on the screen when you click on it. Though, it is not a big problem but it does not feel good. Remember what I mentioned earlier about user experiences? You need to provide a smooth experience to your user. Certainly, this app fails to deliver it. So it is time to fix it. Let's do it!
+
+**Caution: You may lose your code if you proceed in the next section. To save your code, go to the `Blocks` tab, right-click on your code and select `Add to Backpack`. This will save the code in the backpack and you can retrive it latter.**
+
+### **Fixing the jumping button**
+1. Return to the `Designer` tab and delete the `Image` and the `Button` from the screen. You will have en empty screen again.
+   > You may get an warning message similar to the following image. Click on `Save the empty screen now.` button.
+2. Click on the `Layout` tab from the left panel and drag and drop two `VerticalArrangement` block on the screen.
+   > Layout helps to create a container where you can arrange multiple components. You can arrange multiple buttons in an `HorizontalArrangement` to create a navigation panel and so on.
+3. Click on the top container and from the `Properties` panel change the `Height` to 80% and `Width` to *fill parent*.
+4. Click on the other container and from the `Properties` panel change the `Width` to *fill parent*.
+5. Drag and drop an `Image` component into the top container. Click on the `VerticalArrangement1` from the components panel and align it to center for both horizontal and vertical.
+6. Drag and drop a `Button` component into the other container. Click on the `VerticalArrangement2` from the components panel and align it to center for both horizontal and vertical.
+7. Click on the `Image` component and choose the uploaded image.
+   > You can optionally change the `Height` property of the image if you would like to do so.
+8. Change the button `Width` to *fill parent* and change the `Text` to *Hide*.
+9. Go to the `Blocks` screen and click on the backpack icon. Drag and drop the code into the code area.
+10. **You are done!**. Test it out.
