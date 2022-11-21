@@ -117,4 +117,4 @@ Follow the following steps to test the app.
 
 ---
 ## Extension activity
-You may notice that, the show/hide button jumps up and down on the screen. Though, it is not a big problem, it does not feel good. Remember what I mentioned earlier about user experiences? Let's fix it. We do 
+You may notice that, the show/hide button jumps up and down on the screen. Though, it is not a big problem, it does not feel good. Remember what I mentioned earlier about user experiences? Let's fix it!
