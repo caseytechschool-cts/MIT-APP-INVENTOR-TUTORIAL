@@ -116,7 +116,7 @@ Follow the following steps to test the app.
 4. Your app should load on your mobile device and it shoud work.
 
 ---
-## Extension activity
+## Extension activity 1
 You may notice that the show/hide button jumps up and down on the screen when you click on it. Though, it is not a big problem but it does not feel good. Remember what I mentioned earlier about user experiences? You need to provide a smooth experience to your user. Certainly, this app fails to deliver it. So it is time to fix it. Let's do it!
 
 **Caution: You may lose your code if you proceed in the next section. To save your code, go to the `Blocks` tab, right-click on your code and select `Add to Backpack`. This will save the code in the backpack and you can retrive it latter.**
@@ -135,3 +135,8 @@ You may notice that the show/hide button jumps up and down on the screen when yo
 8. Change the button `Width` to *fill parent* and change the `Text` to *Hide*.
 9. Go to the `Blocks` screen and click on the backpack icon. Drag and drop the code into the code area.
 10. **You are done!**. Test it out.
+
+---
+## Extension activity 2
+The next posible logical activity could be adding a sound assest file.
+
