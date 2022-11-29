@@ -3,6 +3,7 @@
 Welcome to the app development tutorial. This tutorial is intented for begineers who just started exploring app development world with low and no-coding approach. Throughout this tutorial, I will use **MIT App Inventor** website to design and develop an app.
 
 *If you are here only to build and test the app, jump directly to the [builing your first app](#building-your-first-app) section.*
+*To download the project click [HERE](download/tutorial-1.aia). You can open it on MIT APP Inventor platform.*
 
 ### **Things you need**
 1. Computer (laptop or desktop) with internet connection
