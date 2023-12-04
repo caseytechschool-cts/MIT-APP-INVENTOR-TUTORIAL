@@ -14,24 +14,30 @@ To get started, make sure you have the following:
 5. Optionally, you can use a USB cable and [aiStarter](https://appinventor.mit.edu/explore/ai2/setup-emulator.html).
 
 ## Learning Objectives
-By the end of this tutorial, you will be able to:
+By the end of this tutorial, you will gain proficiency in:
 1. Navigating the MIT App Inventor platform.
 2. Designing basic user interfaces.
 3. Constructing logical processes based on your designs.
 4. Testing and sharing the app through at least two different methods.
 
----
-## Setup
-You need to setup once only. Depending on availablity of hardware and Internet connectivity, the setup process might differs a bit. However, here are the common steps you need to take to setup your environment.
+# Setup
+The setup process is a one-time task, and depending on the availability of hardware and internet connectivity, the steps may vary slightly. However, here are the common steps you need to follow to set up your environment.
 
-> You need a Gmail address to login into your account. You can share the same Gmail address with multiple participants. However, **make sure that all sessions are alive.**
+1. **Gmail Address:**
 
-> Install [MIT AI2 Companion app](https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3) from the play store. This app allows you to test your app in an actual Android device.
+> You will need a Gmail address to log in to your account. Every computer should use unique Gmail address.
+> [!CAUTION]
+> It is not recommanded to use the same Gmail address to log in into multiple computers. Potentially, you will destroy other people's work.
 
-> Install [aiStarter](https://appinventor.mit.edu/explore/ai2/setup-emulator.html) in your computer should you use a USB cable to connect a tablet with the computer.
+2. **Install MIT AI2 Companion App:**
+> Head over to the Play Store and install the MIT AI2 Companion app. This app enables you to test your app on an actual Android device.
 
----
-## Building your first app
+3. **Install aiStarter:**
+> If you plan to connect a phone/tablet to your computer using a USB cable, install aiStarter on your computer.
+
+These steps, once completed, will ensure that your environment is set up for a smooth app development experience. Remember to adapt the process according to your hardware and internet availability.
+
+# Building your First Mobile App
 
 ### **User interface design**
 
