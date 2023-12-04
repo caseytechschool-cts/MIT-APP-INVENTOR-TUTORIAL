@@ -1,11 +1,13 @@
-# App Development
-This repository has hands-on tutorial on app marking using the [MIT APP Inventor](https://appinventor.mit.edu/) platform. Check out different folders (e.g., App_idea1) to see tutorials. 
+# App Development using MIT APP Inventor Platform
+This repository contains hands-on tutorials for building mobile apps using the [MIT App Inventor](https://appinventor.mit.edu/) platform. MIT App Inventor allows you to build fully functional apps for Android devices without extensive coding experience.
 
-## Tutorial#1:
-*A single page Android app to hide and show an image and dynamically change a button text.*
+Each tutorial is presented as a separate folder in this repo. You will learn app development concepts and best practices along the way.
+> [!TIP]
+> For tips on designing intuitive user interfaces for optimal app experiences, see the [UI/UX Guide](./UIUXguide/ui_ux_guide.md).
 
-**Tutorial 1**
+# Tutorials
+## Tutorial#1: Image Hide-and-seek
+Build a simple one screen app that can hide/show an image and change a button text when tapped. This covers basic interactivity and logic.
 
-Click [Here](App_idea1/tutorial.md) to access the tutorial.
+:rocket: [View Tutorial#1](App_idea1/tutorial.md).
 
-**=== More will be added soon ===**

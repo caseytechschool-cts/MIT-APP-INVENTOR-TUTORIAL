@@ -30,21 +30,6 @@ You need to setup once only. Depending on availablity of hardware and Internet c
 > Install [aiStarter](https://appinventor.mit.edu/explore/ai2/setup-emulator.html) in your computer should you use a USB cable to connect a tablet with the computer.
 
 ---
-## Building an app
-You will follow a two-stages principle to build an app. First, you design the layout of the app. Second, you think about how to make it working, so writing down all logic statements.
-
-### **User interface design**
-
-The first stage is known as **User Interface (UI) design**. In this stage, you not only design the interface but also consider the **User Experience (UX)**. Your design should balance on user experience. Indeed, you are making it for others to use.
-
-To understand the difference between **UI** and **UX** checkout the follow image.
-![UI vs UX](media/UIvsUX.jpg)
-
-The top image shows a cute mug, which looks nice and creative. However, the user experience is really bad. While designing the user interface, make a smooth experience for your user, not for yourself.
-
-### **App logic**
-You have designed an awesome user interface keeping in mind the user experiences. But one problem remains: it does nothing! Now, you need to think about how to make it functional by writing some code. You will use Scratch to build the logic.
-
 ## Building your first app
 
 ### **User interface design**
