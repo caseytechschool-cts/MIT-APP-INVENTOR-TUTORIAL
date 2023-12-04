@@ -23,17 +23,13 @@ By the end of this tutorial, you will gain proficiency in:
 # Setup
 The setup process is a one-time task, and depending on the availability of hardware and internet connectivity, the steps may vary slightly. However, here are the common steps you need to follow to set up your environment.
 
-1. **Gmail Address:**
-
-> You will need a Gmail address to log in to your account. Every computer should use unique Gmail address.
+1. **Gmail Address:** You will need a Gmail address to log in to your account. Every computer should use unique Gmail address.
 > [!CAUTION]
 > It is not recommanded to use the same Gmail address to log in into multiple computers. Potentially, you will destroy other people's work.
 
-2. **Install MIT AI2 Companion App:**
-> Head over to the Play Store and install the MIT AI2 Companion app. This app enables you to test your app on an actual Android device.
+2. **Install MIT AI2 Companion App:** Head over to the Play Store and install the MIT AI2 Companion app. This app enables you to test your app on an actual Android device.
 
-3. **Install aiStarter:**
-> If you plan to connect a phone/tablet to your computer using a USB cable, install aiStarter on your computer.
+3. **Install aiStarter:** If you plan to connect a phone/tablet to your computer using a USB cable, install aiStarter on your computer.
 
 These steps, once completed, will ensure that your environment is set up for a smooth app development experience. Remember to adapt the process according to your hardware and internet availability.
 
