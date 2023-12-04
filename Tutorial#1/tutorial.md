@@ -1,23 +1,24 @@
-# App tutorial 
+# Tutorial#1: Image Hide-and-Seek
 
-Welcome to the app development tutorial. This tutorial is intented for begineers who just started exploring app development world with low and no-coding approach. Throughout this tutorial, I will use **MIT App Inventor** website to design and develop an app.
+Welcome to our app development tutorial! This guide is tailored for beginners who are just embarking on their exploration of the app development world using a low/no-code approach. Throughout this tutorial, we will be utilising the [MIT App Inventor](https://appinventor.mit.edu/) platform to craft and shape our app.
 
-*If you are here only to build and test the app, jump directly to the [builing your first app](#building-your-first-app) section.*
-*To download the project click [HERE](download/tutorial-1.aia). You can open it on MIT APP Inventor platform.*
+> [!IMPORTANT]
+> If you are solely interested in building and testing the app, feel free to skip ahead to the [Building Your First App section](#building-your-first-app). You can download the project [HERE](./download/tutorial-1.aia) and open it in the MIT App Inventor platform.
 
-### **Things you need**
-1. Computer (laptop or desktop) with internet connection
-2. A Gmail address to login into the MIT App Inventor website
-3. Android phone or tablet for testing the app
-4. [MIT AI2 Companion app](https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3) 
-5. Optional: USB cable and [aiStarter](https://appinventor.mit.edu/explore/ai2/setup-emulator.html)
+## Prerequisites
+To get started, make sure you have the following:
+1. A computer (laptop or desktop) with internet connection.
+2. A Gmail address for logging into the MIT App Inventor website.
+3. An Android phone or tablet for testing the app.
+4. Install the [MIT AI2 Companion app](https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3) on your Android device.
+5. Optionally, you can use a USB cable and [aiStarter](https://appinventor.mit.edu/explore/ai2/setup-emulator.html).
 
-### **Outcome**
-If you follow this tutorial, you will be able to:
-1. use MIT App Inventor platform
-2. design the user interface
-3. build the logic
-4. test and share the app at least two ways
+## Learning Objectives
+By the end of this tutorial, you will be able to:
+1. Navigating the MIT App Inventor platform.
+2. Designing basic user interfaces.
+3. Constructing logical processes based on your designs.
+4. Testing and sharing the app through at least two different methods.
 
 ---
 ## Setup
