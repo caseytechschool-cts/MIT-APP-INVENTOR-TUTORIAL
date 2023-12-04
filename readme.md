@@ -9,5 +9,5 @@ Each tutorial is presented as a separate folder in this repo. You will learn app
 ## Tutorial#1: Image Hide-and-seek
 Build a simple one screen app that can hide/show an image and change a button text when tapped. This covers basic interactivity and logic.
 
-:rocket: [View Tutorial#1](App_idea1/tutorial.md).
+:rocket: [View Tutorial#1](./Tutorial#1/tutorial.md).
 
