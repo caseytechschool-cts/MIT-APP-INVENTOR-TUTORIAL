@@ -110,28 +110,30 @@ Follow these steps to test the app:
 
 This method provides a quick and efficient way to test your app on a physical device, allowing you to experience its functionality as intended.
 
-## Extension activity 1
-You may notice that the show/hide button jumps up and down on the screen when you click on it. Though, it is not a big problem but it does not feel good. Remember what I mentioned earlier about user experiences? You need to provide a smooth experience to your user. Certainly, this app fails to deliver it. So it is the time to fix it. Let's do it!
+## Extension activity 1: Improving button stability
+While testing your app, you might have observed that the show/hide button exhibits a noticeable jump on the screen when clicked. Although it may seem minor, delivering a seamless user experience is crucial. Let's address this issue and enhance the app's usability.
 
-**Caution: You may lose your code if you proceed. To save your code, go to the `Blocks` tab, right-click on your code and select `Add to Backpack`. This will save the code in the backpack and you can retrive it latter.**
+> [!CAUTION]
+> **Proceeding may result in code loss. To safeguard your code, navigate to the `Blocks` tab, right-click on your code, and select `Add to Backpack`. This action saves the code in the backpack for retrieval later.**
 
-### **Fixing the jumping button**
-1. Return to the `Designer` tab and delete the `Image` and the `Button` from the screen. You will have en empty screen again.
-   > You may get an warning message similar to the following image. Click on `Save the empty screen now.` button.
-   ![MIT4](media/MIT%20App%20Inventor_4.png)
-2. Click on the `Layout` tab from the left panel and drag and drop two `VerticalArrangement` block on the screen.
-   > Layout helps to create a container where you can arrange multiple components. You can arrange multiple buttons in an `HorizontalArrangement` to create a navigation panel and so on.
-3. Click on the top container and from the `Properties` panel change the `Height` to 80% and `Width` to *fill parent*.
-4. Click on the other container and from the `Properties` panel change the `Width` to *fill parent*.
-5. Drag and drop an `Image` component into the top container. Click on the `VerticalArrangement1` from the components panel and align it to center for both horizontal and vertical.
-6. Drag and drop a `Button` component into the other container. Click on the `VerticalArrangement2` from the components panel and align it to center for both horizontal and vertical.
-7. Click on the `Image` component and choose the uploaded image.
-   > You can optionally change the `Height` property of the image if you would like to do so.
-8. Change the button `Width` to *fill parent* and change the `Text` to *Hide*.
-9. Go to the `Blocks` screen and click on the backpack icon. Drag and drop the code into the code area.
-10. **You are done!**. Test it out.
+### Fixing the jumping button issue
+1. Return to the `Designer` tab and remove the `Image` and `Button` from the screen, leaving it empty.
+   > You may encounter a warning message; click on `Save the empty screen now.` to proceed.
 
----
+   > ![MIT4](media/MIT%20App%20Inventor_4.png)
+
+2. Click on the `Layout` tab in the left panel (Panel 1) and drag two `VerticalArrangement` blocks onto the screen.
+   > Layouts serve as containers for arranging multiple components, facilitating the organisation of buttons, navigation panels, etc.
+3. Adjust the properties of the first container: set `Height` to 80% and `Width` to *fill parent*.
+4. Modify the properties of the other container: set `Width` to *fill parent*.
+5. Drop an `Image` component into the first container. Click on `VerticalArrangement1` in the components panel and align it to the center both horizontally and vertically.
+6. Place a `Button` component into the other container. Click on `VerticalArrangement2` in the components panel and align it to the center both horizontally and vertically.
+7. Click on the `Image` component and select the uploaded image.
+   > Optionally, adjust the `Height` property of the image if needed.
+8. Set the button's `Width` to *fill parent* and change the `Text` to *Hide*.
+9. Navigate to the `Blocks` screen and click on the backpack icon. Drag and drop the saved code into the code area.
+10. **You are done!** Test the app to ensure the button now operates smoothly without any jumping issues.
+
 ## Extension activity 2
 The next posible activity could be adding a sound assest. Follow these steps to add a sound file with the button component.
 
