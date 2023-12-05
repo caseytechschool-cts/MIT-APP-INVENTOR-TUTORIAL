@@ -35,46 +35,47 @@ These steps, once completed, will ensure that your environment is set up for a s
 
 # Building your First Mobile App
 
-### **User interface design**
+## User interface design
 
-We will start by designing the user interface. Here is a hand-drawn diagram how the interface looks like.
+Let's begin by designing the user interface. Below is a hand-drawn diagram illustrating how the interface should look:
+
 ![user interface](media/layout.jpg)
-The layout has an image and a button component. Let's build it in the MIT APP Inventor platform. Follow the following steps.
 
-1. Visit [MIT APP Inventor](https://appinventor.mit.edu/)link using the Chrome browser and click on `Create Apps!` button.
-2. Use a Gmail address to login into the system.
-3. For the first time use, it may show you some intro, you can skip it by ticking off a box.
-4. To create an app, click on `Start new project` button and give it a name. You can give any name you would like. However, a better practice would be given it a name that alligns with what the app does.
-5. It will take a few moments the prepare the project and once ready you will see the following image.
-    > Let's try to understand what is going on here. There are four panels. On your left, you have user interface and layout, separated into different sections.
-    ![MIT1](media/MIT%20App%20Inventor_1.png)
+Now, we will guide you through the process of building this interface using the MIT App Inventor platform. Follow these steps:
 
-    > Panel 2 is where you can drag and drop different things from the left panel. You can change the screen size by switching on different screen sizes.
+1. Visit [MIT APP Inventor](https://appinventor.mit.edu/) using a web browser and click on the `Create Apps!` button.
+2. Log in using your Gmail address.
+3. For the first-time login, it might show you an introduction; you can skip it by ticking off a box.
+4. Click on the `Start new project` button, name your project (choose a name aligned with your app's functionality).
+5. After a moment, your project will be ready, and you will see the interface with four panels. Let's understand them:
+    > ![MIT1](media/MIT%20App%20Inventor_1.png)
 
-    > The `Components` panel shows the tree view of all the things you can drag and drop from the left panel. You can rename a component or delete it from here. Just under the `Components`, there is a `Media` panel. You can upload different assests (e.g., images, audio etc.) through it.
+    > - **Panel 1:** User interface and layout, separated into different sections.
+    > - **Panel 2:** Drag-and-drop area for various components, with the option to change screen sizes.
+    > - **Panel 3:** Tree view of draggable components. Below it is the `Media` panel for uploading assets.
+    > - **Panel 4:** Modify properties of selected components.
 
-    > Finally, the rightmost panel is the `Properties` panel. Depending on what is selected on the screen or at the `Components` tree, it will allow you to modify different properties of that component. You can change colour, shape, size and many other behaviours from this panel.
-6. Drag and drop an `Image` and a `Button` components on your screen. The secreen should look like the following:
+6. Drag and drop an `Image` and a `Button` onto your screen, resulting in the following layout:
    ![MIT2](media/MIT%20App%20Inventor_2.png)
-7.  By default, every component snap at the top-left corner. You can change this behaviour by visiting the `Properties` panel. Let's move everything at the center and middle of the screen.
-    > Click on the `Screen1` from the `Components` tree.
+7.  Adjust the components' positions to the center and middle of the screen:
+    > - Click on `Screen1` in the `Components` tree.
     
-    > Select `Center` for `AlignHorizontal` and `AlignVertical`. Everything should move at the center of the screen.
+    > - Set `AlignHorizontal` and `AlignVertical` to `Center` in the `Properties` panel.
 
-    > *Optional*: to use the device default theme, scroll down of the `Properties` component and look for `Theme`. Change the theme to `Device Default`
-8.  The image component is a placeholder and you need to upload an actual image. Go to the `Media` panel and click on `Upload File` and uploads an image file (png or jpge file). You will see no difference as you need to link the newly uploaded file with the image component. 
-    > You will find `light_on.png` under the `media` folder.
+    > *Optional*: To use the device default theme, scroll down in the `Properties` panel and change the `Theme` to `Device Default`.
+8.  The `Image` component is a placeholder; upload an actual image:
+    > - Go to the `Media` panel, click `Upload File`, and select `light_on.png` from the `media` folder.
 
-    > Click on the image icon on the screen or click on `Image1` from the `Components` tree. From the `Properties` panel, click on the `Picture` and select your image file and press `OK`.
+    > - Click on the image icon or `Image1` in the `Components` tree. In the `Properties` panel, click `Picture`, select your image file, and press `OK`.
 
-    > Depending on the image size, it may take the most of the screen and you may kind of lost the `Button` component. To fix this, you can limit the height of the image. To do it, click on `Height` from the `Properties` panel and give a percentage value (60% works for me) and click `OK`. Now, you should be able to see both components.
-9.  Click on the `Button` on the screen. Change a few properties of the button too.
-    > From the `Properties` panel, click on `Width` and choose `Fill parent` and click `OK`. The button will take the entire screen for its width.
+    >  - To prevent the image from dominating the screen, set its height to a percentage value (e.g., 60%) in the `Properties` panel.
+9.  Customise the `Button`:
+    > - Click on the `Button` on the screen.
+    > - In the `Properties` panel, set the `Width` to `Fill parent`.
+    > - Change the `Text` property to *Hide*.
+10. **Congratulation!** You have completed the design phase. Now, it's time to think about implementing the app logic.
 
-    > From the `Text` property replace the current text with *Hide* and press enter.
-10. **Congratulation!** You have officially finished the design part. Now you need to think about implementing the app logic.
-
-### **App logic**
+## App logic
 When you click on the `Hide` button, the app hides the image and changes the  button text to `Show`. Once you click on the `Show` button, the app shows the image and changes the button text to `Hide`. 
 
 The following image shows you the logical breakdown.
