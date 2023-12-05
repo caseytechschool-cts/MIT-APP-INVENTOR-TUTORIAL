@@ -76,29 +76,26 @@ Now, we will guide you through the process of building this interface using the 
 10. **Congratulation!** You have completed the design phase. Now, it's time to think about implementing the app logic.
 
 ## App logic
-When you click on the `Hide` button, the app hides the image and changes the  button text to `Show`. Once you click on the `Show` button, the app shows the image and changes the button text to `Hide`. 
+The app logic is responsible for toggling the visibility of the image and updating the button text accordingly. Follow these steps to implement the logic:
 
-The following image shows you the logical breakdown.
 ![logic](media/logic.jpg)
 
-To implement the above logic, click on the `Blocks` tab on top of `Properties` panel and follow these steps:
-
-1. Click on `Button1` from `Blocks` panel and drag and drop `when Button1.Click` block.
-2. Click on `Control` block and drag and drop `if then else` block inside the `when Button1.Click` block.
-3. Click on the `Logic` block and drag and drop the equal block on the if statement.
-4. Click on the screen and type `Button1.Text` and press enter. Move the new block inside the first section of the equal operation.
-    > Another option: Click on the `Button1` from the `Blocks` panel and find the block `Button1.Text` and drag and drop it.
-5. Click on the screen and type *text*. Choose it from the drop down menu and move the block on the second section of the equal operation. Type Hide in empty block. At this stage the code should look like the following:
+1. Navigate to the `Blocks` tab above the `Properties` panel.
+2. Click on `Button1` in the `Blocks` panel and drag the `when Button1.Click` block.
+3. Drag an `if then else` block from the `Control` section into the `when Button1.Click` block.
+4. Drag an equal block from the `Logic` section and drop it into the if statement.
+5. Use the `Button1.Text` block from the `Button1` section, placing it in the first section of the equal operation.
+6. Drag an empty text block from the `Text` section into the second part of the equal operation. Type *Hide* in the empty block.
    ![block-code-1](media/blocks1.png)
-6. Click on the screen and type **set image1** and from the drop down menu choose `Visible`. Type False on the screen and connect it with the set image1 block. Move the entire block inside the if statement.
-7. Similarly, set the Button1 text to Show. The following image shows code at this stage.
+7. Click on the `Image1` block and drag and drop `set Image1.Visible to` on your screen. From the `Logic` section grab the `False` block. Connect them together.
+8. Similarly, click on the `Button1` block and drag and drop `set Button1.Text to` on your screen. From the `Text` section grab the empty text block and type `Show`. Connect them together.
+9. Move these two blocks inside the if statement.
    ![block-code-2](media/blocks2.png)
-8. Right-click on the first set block and choose `Duplicate`. Move the duplicated block inside the else statement. Change false to true.
-9.  Duplicate the other block and move it into the else statement and change the text to Hide. The final code is as follows:
+9. Right-click on the first set block, choose `Duplicate`, and move the duplicated block inside the else statement. Change `False` to `True` and `Show` to `Hide`.
+10. Duplicate the other block, move it into the else statement, and change the text to *Hide*. The final code is as follows:
     ![final code](media/blocks3.png)
-10. **Congrats, you are done!!!** Let's test it.
+11. **Congratulations, you are done!** Test your app to see the logic in action.
 
----
 ## Testing the app
 There are a few different ways you can test the app. Here, I will show you the easiest way of testing the app. To test the app, **make sure your laptop and tablet/mobile devices are connected on the same Wi-Fi network.**
 
