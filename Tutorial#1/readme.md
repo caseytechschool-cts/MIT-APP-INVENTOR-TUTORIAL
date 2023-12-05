@@ -145,5 +145,25 @@ For an additional enhancement, let's integrate a sound asset into the app. Follo
 5. Move the `Play` block inside both the `if` and `else` parts of the existing code. The final code should resemble the image below:
 ![block 5](media/blocks4.png)
 
-
 **All done!!!**
+
+Here is a suggested concise conclusion/summary you can add at the end of the app development tutorial document:
+
+## Conclusion
+
+In this beginner-friendly tutorial, we stepped through building a simple yet functional app using MIT App Inventor. 
+
+We started by designing the visual interface with an image and button. Next, we gave the app interactivity by adding logic to hide/show the image when clicked. Finally, we tested it out right on a phone using the QR code connection.
+
+Along the way, you learned:
+
+- **User Interface Design** - How to layout components and customise properties
+- **Coding Logic** - Using block coding to create interactivity 
+- **Connecting Apps** - Testing apps instantly using QR code scanning
+- **Enhancing Apps** - Smoothening transitions and adding multimedia
+
+With these core concepts and the handy MIT platform, you now have the skills to start building your own basic apps. The possibilities are endless when you break down ideas into interfaces and logical steps.
+
+We encourage you to use these foundations to create more advanced flows and visuals. Do not forget to run experiments, test frequently, and make iterations.
+
+Happy app-building!
