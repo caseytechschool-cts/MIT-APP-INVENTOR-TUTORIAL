@@ -134,16 +134,16 @@ While testing your app, you might have observed that the show/hide button exhibi
 9. Navigate to the `Blocks` screen and click on the backpack icon. Drag and drop the saved code into the code area.
 10. **You are done!** Test the app to ensure the button now operates smoothly without any jumping issues.
 
-## Extension activity 2
-The next posible activity could be adding a sound assest. Follow these steps to add a sound file with the button component.
+## Extension activity 2: Adding sound asset to the app
+For an additional enhancement, let's integrate a sound asset into the app. Follow these straightforward steps to incorporate a sound file along with the button component.
 
-1. From the left panel, Click on the `Media` tab and drag and drop `Sound` component on the screen. Sound is a *non visible* component, so you cannot see anything on the screen.
-2. Upload a **WAV** sound file, the same as you have uploaded the image file.
-    > You will find a sound file (`switch-1.wav`) inside the `media` folder.
-3. Click on the `Sound1` from the `Components` tree and from the `Properties` panel, select the uploaded sound file as a `Source`.
-4. Move to the `Blocks` tab and click on the `Sound1` and drag `call Sound1.Play`.
-5. Move the `Play` block inside the `if` and `else` part. The final code looks like the below.
+1. Navigate to the left panel (Panel 1) and click on the `Media` tab. Drag and drop the `Sound` component onto the screen. Note that the sound component is non-visible, so you won't see any changes on the screen.
+2. Upload a **WAV** sound file, similar to how you uploaded the image file.
+   > Locate the sound file (`switch-1.wav`) within the `media` folder.
+3. Click on `Sound1` in the `Components` tree. From the `Properties` panel, select the uploaded sound file as the `Source`.
+4. Switch to the `Blocks` tab and click on `Sound1`. Drag the `call Sound1.Play` block.
+5. Move the `Play` block inside both the `if` and `else` parts of the existing code. The final code should resemble the image below:
 ![block 5](media/blocks4.png)
 
 
-<p align='center'> All done!!! </p>
+**All done!!!**
