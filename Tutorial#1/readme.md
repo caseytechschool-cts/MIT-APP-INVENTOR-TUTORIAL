@@ -97,17 +97,19 @@ The app logic is responsible for toggling the visibility of the image and updati
 11. **Congratulations, you are done!** Test your app to see the logic in action.
 
 ## Testing the app
-There are a few different ways you can test the app. Here, I will show you the easiest way of testing the app. To test the app, **make sure your laptop and tablet/mobile devices are connected on the same Wi-Fi network.**
+Testing your app is a crucial step in ensuring its functionality. Here is the simplest way to test your app. Ensure that your laptop and tablet/mobile devices are connected to the same Wi-Fi network.
 
-Follow the following steps to test the app.
+Follow these steps to test the app:
+1. Click on `Connect` and select `AI Companion`. This action generates a QR code.
 
-1. Click on the `Connect` and choose `AI Companion`. It will generate a QR code. 
     ![MIT3](media/MIT%20App%20Inventor_3.png)
-2. On your phone/tablet, open the `MIT AI2 Companion` app and click `scan QR code`.
-3. Point your camera at the QR code and hold it until it finishes.
-4. Your app should load on your mobile device and it shoud work.
 
----
+2. Open the `MIT AI2 Companion` app on your phone/tablet and choose `Scan QR code`.
+3. Point your camera at the QR code and hold it until the scanning process is complete.
+4. Your app should load on your mobile device, and it should now be operational.
+
+This method provides a quick and efficient way to test your app on a physical device, allowing you to experience its functionality as intended.
+
 ## Extension activity 1
 You may notice that the show/hide button jumps up and down on the screen when you click on it. Though, it is not a big problem but it does not feel good. Remember what I mentioned earlier about user experiences? You need to provide a smooth experience to your user. Certainly, this app fails to deliver it. So it is the time to fix it. Let's do it!
 
